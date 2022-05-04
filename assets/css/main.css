@@ -1,0 +1,417 @@
+
+@font-face {
+    font-family: cocacolaFont;
+    src:url("../fonts/lokicola.ttf");
+}
+
+.nav-color{
+    background-color: rgb(215,0,0) !important;
+}
+
+.brand-logo{
+    width: 100%;
+}
+
+.modelBody{
+    overflow-x: hidden;
+    text-align: center;
+}
+
+button{
+    margin-bottom: 1% !important;
+    width: 100px;
+}
+
+h1{
+    font-family: cocacolaFont;
+    font-size: 41px;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+h2{
+    font-family: cocaColaFont;
+    font-size: 43px !important;
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+
+h3{
+    font-size: 31px !important;
+    margin-top: 5px !important;
+    margin-bottom: 3px !important;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+#tagline{
+    display: block;
+    font-size: 12px;
+    margin-top: -40px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0% !important;
+    padding-top: 0px;
+}
+
+.section{
+    width: 100%;
+    height: 88vh;
+}
+
+.section > .background{
+    width: 100%;
+    height: 88vh;
+    z-index: -10;
+}
+
+.section > .foreground{
+    z-index: 2;
+    margin-top: -50%;
+    height: 75vh;
+    margin-left: 65%;
+}
+
+.section > .content{
+    width: 30%;
+    margin-top: -40%;
+    margin-left: 25%;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    color: black;
+    font-family: 'Arial Rounded MT';
+}
+
+.description{
+    font-family: 'Arial Rounded MT';
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+}
+
+.section2 > .background{
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
+
+.section2 > .foreground{
+    z-index: 2;
+    margin-top: -52%;
+    height: 75vh;
+    margin-left: 15%;
+}
+
+.section2 > .content{
+    width: 30%;
+    margin-top: -35%;
+    margin-left: 45%;
+}
+
+.heading2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    color: white;
+    font-family: cocacolaFont !important;
+}
+
+.heading2 > span{
+    padding-left: 8px;
+}
+
+.description2{
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.space-adjuster{
+    letter-spacing: 3.5px;
+}
+
+.image-gallery{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.image-gallery > img{
+    width: 120px;
+    height: 120px;
+    margin-left: 2%;
+    border: 2px solid red;
+    border-radius: 15%;
+}
+
+.model-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 2%;
+}
+
+.model3D{
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid black;
+    margin-top: 1%;
+}
+
+.tmp{
+    width: 100%;
+    text-align: center;
+    /* margin-left:28%; */
+    margin-top: 2%;
+}
+
+.tmp > button{
+    margin-right: 1% !important;
+}
+
+@media screen and (min-width:1024px) and (max-width:1360px) {
+    
+    .section > .foreground{
+        margin-top: -65%;
+    }
+    
+    .section > .content{
+        margin-top: -42%;
+    }
+    
+    .section2 > .foreground{
+        margin-top: -72%;
+    }
+    
+    .section2 > .content{
+        margin-top: -55%;
+        margin-left: 55%;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .section > .foreground{
+        margin-top: -115%;
+        height: 70vh;
+        margin-left: 50%;
+    }
+    
+    .section > .content{
+        margin-top: -75%;
+        margin-left: 15%;
+    }
+
+    .section2{
+        height: 88vh;
+    }
+    
+    .section2 > .background{
+        height: 88vh;
+    }
+    
+    .section2 > .foreground{
+        margin-top: -120%;
+        height: 60vh;
+        margin-left: 10%;
+    }
+    
+    .section2 > .content{
+        width: 30%;
+        margin-top: -90%;
+        margin-left: 55%;
+    }
+    
+}
+
+@media screen and (min-width:540px) and (max-width:720px) {
+    
+    .section > .foreground{
+        margin-top: -115%;
+        height: 70vh;
+        margin-left: 55%;
+    }
+    
+    .section > .content{
+        margin-top: -90%;
+        margin-left: 15%;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+    
+    .description{
+        font-size: 18px;
+    }
+
+    .section2{
+        height: 88vh;
+    }
+    
+    .section2 > .background{
+        height: 88vh;
+    }
+    
+    .section2 > .foreground{
+        margin-top: -120%;
+        height: 60vh;
+        margin-left: 10%;
+    }
+    
+    .section2 > .content{
+        width: 30%;
+        margin-top: -95%;
+        margin-left: 55%;
+    }
+
+    .heading2{
+        font-size: 40px;
+    }
+    
+    .description2{
+        font-size: 16px;
+    }
+
+    #gallery-img{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width:360px) and (max-width:540px) {
+    
+    .section > .foreground{
+        margin-top: -180%;
+        height: 60vh;
+        margin-left: 50%;
+    }
+    
+    .section > .content{
+        width: 40%;
+        margin-top: -150%;
+        margin-left: 7%;
+    }
+
+    .heading{
+        font-size: 36px;
+    }
+    
+    .description{
+        font-size: 18px;
+    }
+
+    .section2{
+        height: 88vh;
+    }
+    
+    .section2 > .background{
+        height: 88vh;
+    }
+    
+    .section2 > .foreground{
+        margin-top: -180%;
+        height: 45vh;
+        margin-left: 2%;
+    }
+    
+    .section2 > .content{
+        width: 40%;
+        margin-top: -150%;
+        margin-left: 55%;
+    }
+
+    .heading2{
+        font-size: 40px;
+    }
+    
+    .description2{
+        font-size: 16px;
+    }
+
+    #gallery-img{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    
+    .section > .foreground{
+        margin-top: -200%;
+        height: 60vh;
+        margin-left: 45%;
+    }
+    
+    .section > .content{
+        width: 40%;
+        margin-top: -170%;
+        margin-left: 5%;
+    }
+
+    .heading{
+        font-size: 36px;
+    }
+    
+    .description{
+        font-size: 18px;
+    }
+
+    .section2{
+        height: 88vh;
+    }
+    
+    .section2 > .background{
+        height: 88vh;
+    }
+    
+    .section2 > .foreground{
+        margin-top: -200%;
+        height: 40vh;
+        margin-left: 2%;
+    }
+    
+    .section2 > .content{
+        width: 40%;
+        margin-top: -170%;
+        margin-left: 55%;
+    }
+
+    .heading2{
+        font-size: 40px;
+    }
+    
+    .description2{
+        font-size: 16px;
+    }
+
+    #gallery-img{
+        width: 40%;
+    }
+    
+}
