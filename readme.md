@@ -46,5 +46,5 @@ The 3D Models were exported in VRML format from the respective 3D Modelling Suit
 During the development process, the models were tested in HTML5 format also. For testing, the VRMLs were converted in HTML5 format.
 
 You can view the website on:
-https://users.sussex.ac.uk/~sz289/3dapp/assignment/index.php
+https://users.sussex.ac.uk/~sz289/3dapp/assignment/index.php [OR]
 https://cocacolawebsite.000webhostapp.com/
