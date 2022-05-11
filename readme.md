@@ -44,3 +44,7 @@ The Sprite 3D Model was designed in PTC Creo with single camera view without any
 The 3D Models were exported in VRML format from the respective 3D Modelling Suites. The same were tested using [Instant Reality desktop application](https://www.instantreality.org/). Upon successful testing for the VRMLs, these were converted into X3D models using [Instant Reality online conversion utility](https://doc.instantreality.org/tools/x3d_encoding_converter/).
 
 During the development process, the models were tested in HTML5 format also. For testing, the VRMLs were converted in HTML5 format.
+
+You can view the website on:
+https://users.sussex.ac.uk/~sz289/3dapp/assignment/index.php
+https://cocacolawebsite.000webhostapp.com/
